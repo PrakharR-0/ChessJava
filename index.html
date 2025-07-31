@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shipping Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Shipping Calculator</h1>
+    <form id="shippingForm">
+      <label for="weight">Package Weight (kg):</label>
+      <input type="number" id="weight" required />
+
+      <label for="type">Delivery Type:</label>
+      <select id="type">
+        <option value="standard">Standard</option>
+        <option value="express">Express</option>
+      </select>
+
+      <button type="submit">Calculate</button>
+    </form>
+
+    <p id="result"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
